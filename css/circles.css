@@ -14940,6 +14940,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
 .decimo { border: solid 4px #A0C031; }
 .onceavo { border: solid 4px #4A9431; }
 .doceavo { border: solid 4px #3C857F; }
+.fdsfdsfaa { border: solid 4px #3C857F; }
 
 /* colores categorías  */
 .arrugas_category.top-producto-nombre, .arrugas_category.producto{ border-right: solid 4px #652677; }
@@ -15744,6 +15745,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
     /* ---------------------- MENÚ CIRCULAR ---------------------- */
 
     .circular {
+
         width: 31em;
         height: 33em;
         /* position: fixed;*/
@@ -15755,9 +15757,9 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         /* -webkit-transition: all .3s ease; */
         /* transition: all .3s ease; */
         /* border: solid 1px red;*/
-        overflow: hidden;
+    
         border-right: 800px;
-        float: left;
+        float: right
     }
 
     .contcircular {
@@ -15778,7 +15780,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         -webkit-transform-origin: 100% 100%;
         transform-origin: 100% 100%;
         /* background-color: #eee; */
-        border: 2px solid #F5F5F5;
+        border: 2px solid transparent;
         -webkit-transition: all 1s ease;
         transition: all 1s ease;
         color: #aaa;
@@ -15787,6 +15789,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         margin-top: -1.8em;
         margin-left: -10em;
         overflow: hidden;
+
 
     }
 
@@ -15808,7 +15811,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         -webkit-transition: background-color .3s ease, -webkit-transform .8s ease;
         transition: background-color .3s ease, -webkit-transform .8s ease;
         transition: background-color .3s ease, transform .8s ease;
-        /* background-color: #ffffff;*/
+        /* background-color: #FF2A8C; */
 
         webkit-transition: all 200ms ease-in-out;
         -moz-transition: all 200ms ease-in-out;
@@ -15847,7 +15850,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         height: 400px;
         border-radius: 1000px;
         position: relative;
-        left: 45px;
+        margin-left: -200px;
         top: 36px;
     }
 
@@ -16790,7 +16793,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         top: 40%;
         margin-top: -1.3em;
         margin-left: -10em;
-        overflow: hidden;
+        overflow: none;
     }
 
     .circular li a {
@@ -20334,3 +20337,8 @@ body:not(.cms-index-index) .logo-home .logo-not-home .logo{display: inline-block
 .item-wrap{display: table-cell;vertical-align: middle;}
 .grid-shop .height_adjusted .item.no-bg img{width: 100%;max-width: 500px;}
 .images img{margin: 0 auto;}
+
+
+body{
+  background-color: transparent;
+}

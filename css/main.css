@@ -4,6 +4,13 @@
 @import "fonts.css";
 
 
+a:hover{
+  text-decoration: none;
+}
+
+ul{
+  display: inline-block;
+}
 
 
 *:focus{
@@ -12,6 +19,18 @@
 
 .uppercase{
 	text-transform: uppercase;
+}
+
+.primary_footer a{
+  display: block;
+}
+
+.primary_footers a{
+    display: block;
+}
+
+.footer_icons a{
+  display: block;
 }
 
 
@@ -398,7 +417,15 @@ body{
       -webkit-transform: translateY(0) rotate(-45deg);
       transform: translateY(0) rotate(-45deg); }
 
+.main_circle_position{
+  background-color: transparent;
+  width: 600px;
+margin: auto;
+  margin-top: -120px;
+  position: relative;
+  z-index: 999;
 
+}
 
 
 .catalog_categorymain{
@@ -408,6 +435,19 @@ margin: 0 auto;
 margin-top: 35px;
 margin-bottom: 200px;
 }
+
+.catalog_categoryies{
+position: relative;
+width: 150px;
+margin: 0 auto;
+margin-top: 35px;
+margin-bottom: 200px;
+}
+
+.catalog_product_mbot{
+  margin-bottom: 100px;
+}
+
 
 
 .banner {
