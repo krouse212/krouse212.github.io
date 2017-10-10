@@ -1,0 +1,107 @@
+  .b2_text{
+  	font-size: 16px;
+  	color: #ABABAB;
+  	margin-top: 30px;
+  		margin-bottom: 0px;
+
+  }
+
+    .b2_caption{
+  	font-size: 26px;
+
+  }
+
+.first_ban_partner{
+	background-image: url(../images/partners/1.jpg);
+	 background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  min-height: 1100px;
+	overflow: hidden;
+}
+
+
+.first_text{
+	margin-top: 300px;
+}
+
+
+
+
+    .b2_captions{
+  	font-size: 30px;
+  	color: #fff;
+  	text-align: center;
+  	width: 100%;
+
+  }
+
+
+
+.first_text{
+	margin-top: 220px;
+}
+
+.text_size{
+	width: 70%;
+}
+
+.partners_li_icon{
+  color: #FF2A8C;
+   position: relative;
+  float: left;
+  margin-right: 17px;
+}
+
+
+.partners_li_text{
+margin-bottom: 30px;
+}
+
+.malnull{
+position: relative;
+left: 0;
+margin-left: 15px;
+}
+
+.adres_city{
+font-size: 24px;
+margin-bottom: 40px;
+}
+
+
+.mbot_part{
+margin-bottom: 40px;
+}
+
+.mbot_parts1{
+margin-top: 60px;
+margin-bottom: 40px;
+}
+
+
+.adres_block{
+  font-size: 16px;
+margin-bottom: 35px;
+color: #9F9F9F;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+
+
+
+  .first_ban_partner{
+	background-image: url(../images/partners/1.jpg);
+  background-image: none;
+}
+
+
+	}
