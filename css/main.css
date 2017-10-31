@@ -675,3 +675,17 @@ a:hover{
 display: block;
 text-decoration: none;
 }
+
+
+  @media screen and (max-width: 1000px) {
+
+
+
+.fedb_header{
+
+display: none;
+}
+
+
+
+        }
