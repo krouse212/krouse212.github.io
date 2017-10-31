@@ -139,16 +139,16 @@ body{
 
 		  /* search*/
 .search{
-		height: 52px;
+		height: 49px;
+    padding-left: 40px;
 
 		
 			}
 
   .search_ic{
-    height: 52px;
-
+    height: 49px;
     width: 230px;
-    
+
       }
 
         .search_icon{
@@ -165,7 +165,7 @@ body{
 			.search_form{
 		position: absolute;
 		bottom: 0;
-		
+
 			}
 
 	.search_input{
@@ -202,13 +202,17 @@ body{
 .phone{
 	height: 52px;
 	font-size: 18px;	
+
+
 	}
 
 	.phone_href{
 		position: absolute;
 		bottom: 0;
+
+    height: 22px;
 		color: #232323;
-		
+
 	}
 
 
@@ -677,7 +681,7 @@ text-decoration: none;
 }
 
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1199px) {
 
 
 
