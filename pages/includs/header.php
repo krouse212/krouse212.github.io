@@ -1,14 +1,16 @@
-
 <header>
-
 <div class="content">
 <div class="row">
 	<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4 logo">
-		<a href="../index.html">
+
+			<a href="../index.php">
+		
 			<span class="logo_top bold">Артефакт</span>
 				<br>
 			<div class="logo_bot">No mego slogan carrito de compras.</div> 	
 		</a>
+	
+	
 	</div>
 
 
@@ -37,12 +39,12 @@
 
 	 <nav class="navigation" role="navigation">
             <ul class="primary-nav bold">
-                <li><a class="first_nav" href="brand.html">О Бренде</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="training.html">Обучение</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="partners.html">Партнеры</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a class="first_nav" href="brand.php">О Бренде</a></li>
+                <li><a class="mar_nav" href="news.php">Новости</a></li>
+                <li><a class="mar_nav" href="training.php">Обучение</a></li>
+                <li><a class="mar_nav" href="catalog.php">Каталог</a></li>
+                <li><a class="mar_nav" href="partners.php">Партнеры</a></li>
+                <li><a class="mar_nav" href="contanct.php">Контакты</a></li>
             </ul>
     </nav>
     <a href="#" class="nav-toggle">Menu<span></span></a>

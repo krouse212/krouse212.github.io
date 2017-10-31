@@ -18,9 +18,9 @@
 				<!-- CSS -->
 		<link href="css/catalog.css" rel="stylesheet">	
 		<link href="css/fullartefakt.css" rel="stylesheet">	
-		
+		<link href="css/circle.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/circles.css" media="all" />
+		
 				
 		
 
@@ -31,17 +31,19 @@
 <body>
 
 
-
 <header>
-
 <div class="content">
 <div class="row">
 	<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4 logo">
-		<a href="#">
+
+			<a href="javascript:void(0);">
+		
 			<span class="logo_top bold">Артефакт</span>
 				<br>
 			<div class="logo_bot">No mego slogan carrito de compras.</div> 	
 		</a>
+	
+	
 	</div>
 
 
@@ -70,12 +72,12 @@
 
 	 <nav class="navigation" role="navigation">
             <ul class="primary-nav bold">
-                <li><a class="first_nav" href="pages/brand.html">О Бренде</a></li>
-                <li><a href="pages/news.html">Новости</a></li>
-                <li><a href="pages/training.html">Обучение</a></li>
-                <li><a href="pages/catalog.html">Каталог</a></li>
-                <li><a href="pages/partners.html">Партнеры</a></li>
-                <li><a href="pages/contact.html">Контакты</a></li>
+                <li><a class="first_nav" href="pages/brand.php">О Бренде</a></li>
+                <li><a href="pages/news.php">Новости</a></li>
+                <li><a href="pages/training.php">Обучение</a></li>
+                <li><a href="pages/catalog.php">Каталог</a></li>
+                <li><a href="pages/partners.php">Партнеры</a></li>
+                <li><a href="pages/contanct.php">Контакты</a></li>
             </ul>
     </nav>
     <a href="#" class="nav-toggle">Menu<span></span></a>
@@ -129,8 +131,6 @@
 </div>
 
 
-
-
 <div class="banner2">
        
 <div class="content">
@@ -162,7 +162,7 @@
 </div>
 
 
-<div class="bold catalog_categoryies">
+<div class="bold catalog_category">
 
 <a href="#">
 <p class="catalog_category_activ catalog_categorys">Лицо</p>
@@ -183,109 +183,11 @@
 <div class="clear">
 </div>
 
+<?php
 
-<div class="main_circle_position">
-	<div class="catalog-category-view categorypath-productos-html category-productos" >
-<section class="mt-container ">
-  
-        <section class="main-container col2-left-layout">
-         
- 
-            <div class="container-main">
-                <div class="main-content container">
-                    <div class="row">
-                    
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-push-9 col-xs-12">
-                            <div class="main-content">
-                                <div class="main">
-                                    <div class="main-inner main-content-inner">
-                                        <div class="row">
-                                            <div class="col-lg-12 ancho">
-                                                <div class="col-main">
-                                                                                   
+include 'pages/includs/circletext.php';
 
-    
-
-    
-<div class="contcircular">
-
-
-<div class="circular hidden-xs hidden-sm">
-    <ul>
-        <li style="transform: rotate(0deg) skew(60deg);"><a href="#" class="active primero" ><span class="active enlace retencion">морщины</span></a></li>
-        <li style="transform: rotate(30deg) skew(60deg);"><a href="#" class="active segundo"><span class="active enlace pelo">тусклая кожа</span></a></li>
-        <li style="transform: rotate(60deg) skew(60deg);"><a href="#" class="active tercero"><span class="active enlace sanitario">постакне и рубцы</span> </a></li>
-        <li style="transform: rotate(90deg) skew(60deg);"><a href="#" class="active cuarto" ><span class="active enlace arrugas ">морщины</span></a></li>
-        <li style="transform: rotate(120deg) skew(60deg);"><a href="#" class="active quinto" ><span class="active enlace manchas ">тусклая кожа</span></a></li>
-        <li style="transform: rotate(150deg) skew(60deg);"><a href="#" class="active sexto" ><span class="active enlace acne">постакне и рубцы</span></a></li>
-        <li style="transform: rotate(180deg) skew(60deg);"><a href="#" class="active septimo" ><span class="active enlace flacidez">вялость кожи</span></a></li>
-        <li style="transform: rotate(210deg) skew(60deg);"><a href="#" class="active octavo"  ><span class="active enlace pielgrasa">морщины</span></a></li>
-        <li style="transform: rotate(240deg) skew(60deg);"><a href="#" class="active octavo" ><span class="active enlace fotosensibilidad">тусклая кожа</span></a></li>
-        <li style="transform: rotate(270deg) skew(60deg);"><a href="#" class="active decimo" ><span class="active enlace pielnaranja">постакне и рубцы</span></a></li>
-        <li style="transform: rotate(300deg) skew(60deg);"><a href="#" class="active onceavo" ><span class="active enlace celulitis">вялость кожи</span></a></li>
-        <li style="transform: rotate(330deg) skew(60deg);"><a href="#" class="active doceavo" ><span class="active enlace flacidezdos">тусклая кожа</span></a></li>
-    </ul>
-
-
-
-    <div id="imagencentral">
-        <div class="imagen-central-uno">
-        <img class="img-responsive" src="images/1.png" alt="Product" />            </div>
-        <div  class="imagen-central-dos" style="display: none;">
-            <img class="img-responsive" src="images/2.png" alt="Product" />        </div>
-    </div>
-
-</div>
-
-
-<!--VERSION MOVIL-->
-
-<div class="circular visible-xs visible-sm">
-    <ul>
-        <li style=" transform: rotate(0deg) skew(60deg);"><a href="#" class="active primero" ><span class="active enlace retencionm">Retención de líquidos</span></a></li>
-        <li style="transform: rotate(30deg) skew(60deg);"><a href="#" class="active segundo"><span class="active enlace pelom">Dermaroller</span></a></li>
-        <li style="transform: rotate(60deg) skew(60deg);"><a href="#" class="active tercero"><span class="active enlace sanitariom">Producto sanitario</span> </a></li>
-        <li style="transform: rotate(90deg) skew(60deg);"><a href="#" class="active cuarto" ><span class="active enlace arrugasm ">Arrugas</span></a></li>
-        <li style="transform: rotate(120deg) skew(60deg);"><a href="#" class="active quinto" ><span class="active enlace manchasm ">Piel apagada y manchas</span></a></li>
-        <li style="transform: rotate(150deg) skew(60deg);"><a href="#" class="active sexto" ><span class="active enlace acnem">Acné y marcas</span></a></li>
-        <li style="transform: rotate(180deg) skew(60deg);"><a href="#" class="active septimo" ><span class="active enlace flacidezm">Flacidez facial</span></a></li>
-        <li style="transform: rotate(210deg) skew(60deg);"><a href="#" class="active octavo"  ><span class="active enlace pielgrasam">Piel grasa</span></a></li>
-        <li style="transform: rotate(240deg) skew(60deg);"><a href="#" class="active noveno" ><span class="active enlace fotosensibilidadm">Fotosensibilidad</span></a></li>
-        <li style="transform: rotate(270deg) skew(60deg);"><a href="#" class="active decimo" ><span class="active enlace pielnaranjam">Piel de naranja</span></a></li>
-        <li style="transform: rotate(300deg) skew(60deg);"><a href="#" class="active onceavo" ><span class="active enlace celulitism">Celulitis</span></a></li>
-        <li style="transform: rotate(330deg) skew(60deg);"><a href="#" class="active doceavo" ><span class="active enlace flacidezdosm">Flacidez</span></a></li>
-    </ul>
-
-
-    <div id="imagencentral">
-
-        <div class="imagen-central-uno">
-        <img class="img-responsive" src="images/menu_circular01.png" alt="Product" />            </div>
-      
-    </div>
-
-</div>
-
-
-
-
-
-
-
-
-        </div>
-
-        </div>
-            </section>
-</section>
-</div>
-
-
-</div>
-
-
-<div class="clear">
-</div>
+?>
 
 <br>
 <br>
@@ -412,7 +314,7 @@
 <div class="col-lg-6 col-lg-offset-0 col-md-12">
 
 
-<div id='seven' class="catalog_product catalog_product_mbot">
+<div id='seven' class="catalog_product">
 	
 <div class="catalog_product_img">
 	<img src="images/catalog/1.jpg" alt="" class="catalog_img">
@@ -450,6 +352,9 @@
 </div>
 </div>
 
+<br>
+<br>
+
 
 
 <footer>
@@ -458,7 +363,7 @@
 <div class="row">
 
 			<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4 logo">
-		<a href="#">
+		<a href="../index.html">
 			<span class="logo_top logo_fut bold">Артефакт</span>
 				<br>
 			<div class="logo_bot">No mego slogan carrito de compras.</div>	
@@ -471,7 +376,7 @@
 
 	 <nav class="navigation_footer" role="navigation">
             <ul class="primary_footer bold">
-            	<li><a href="#">Главная</a></li>
+            	<li><a href="javascript:void(0);">Главная</a></li>
                <li><a class="first_nav" href="pages/brand.html">О Бренде</a></li>
                 <li><a href="pages/news.html">Новости</a></li>
                 <li><a href="pages/training.html">Обучение</a></li>
@@ -488,7 +393,7 @@
             <ul class="primary_footers bold">
                 <li><a href="pages/catalog.html">Каталог</a></li>
                 <li><a href="pages/partners.html">Партнеры</a></li>
-                <li><a href="pages/contact.html">Контакты</a></li>
+                <li><a href="pages/contacts.html">Контакты</a></li>
             </ul>
     </nav>
 
@@ -526,7 +431,6 @@
 
 
 </footer>
-
 
 
 

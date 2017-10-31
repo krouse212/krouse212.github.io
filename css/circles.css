@@ -14936,11 +14936,11 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
 .sexto { border: solid 4px #CF362C; }
 .septimo { border: solid 4px #E65E31; }
 .octavo { border: solid 4px #EE9332; }
+.vasabio { border: solid 4px #FBD332; }
 .noveno { border: solid 4px #FBD332; }
 .decimo { border: solid 4px #A0C031; }
 .onceavo { border: solid 4px #4A9431; }
 .doceavo { border: solid 4px #3C857F; }
-.fdsfdsfaa { border: solid 4px #3C857F; }
 
 /* colores categorías  */
 .arrugas_category.top-producto-nombre, .arrugas_category.producto{ border-right: solid 4px #652677; }
@@ -15745,7 +15745,6 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
     /* ---------------------- MENÚ CIRCULAR ---------------------- */
 
     .circular {
-
         width: 31em;
         height: 33em;
         /* position: fixed;*/
@@ -15757,9 +15756,9 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         /* -webkit-transition: all .3s ease; */
         /* transition: all .3s ease; */
         /* border: solid 1px red;*/
-    
+        overflow: hidden;
         border-right: 800px;
-        float: right
+        float: left;
     }
 
     .contcircular {
@@ -15790,7 +15789,6 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         margin-left: -10em;
         overflow: hidden;
 
-
     }
 
     .desactive {
@@ -15811,7 +15809,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         -webkit-transition: background-color .3s ease, -webkit-transform .8s ease;
         transition: background-color .3s ease, -webkit-transform .8s ease;
         transition: background-color .3s ease, transform .8s ease;
-        /* background-color: #FF2A8C; */
+        /* background-color: #ffffff;*/
 
         webkit-transition: all 200ms ease-in-out;
         -moz-transition: all 200ms ease-in-out;
@@ -15850,7 +15848,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         height: 400px;
         border-radius: 1000px;
         position: relative;
-        margin-left: -200px;
+        left: 45px;
         top: 36px;
     }
 
@@ -16793,7 +16791,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
         top: 40%;
         margin-top: -1.3em;
         margin-left: -10em;
-        overflow: none;
+        overflow: hidden;
     }
 
     .circular li a {
@@ -20340,5 +20338,5 @@ body:not(.cms-index-index) .logo-home .logo-not-home .logo{display: inline-block
 
 
 body{
-  background-color: transparent;
+	background-color: #fff;
 }

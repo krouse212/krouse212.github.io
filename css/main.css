@@ -4,33 +4,19 @@
 @import "fonts.css";
 
 
-a:hover{
-  text-decoration: none;
-}
-
-ul{
-  display: inline-block;
-}
 
 
 *:focus{
+    text-decoration: none;
 		outline:0;
 			}
 
+      a:focus{
+    text-decoration: none;
+      }
+
 .uppercase{
 	text-transform: uppercase;
-}
-
-.primary_footer a{
-  display: block;
-}
-
-.primary_footers a{
-    display: block;
-}
-
-.footer_icons a{
-  display: block;
 }
 
 
@@ -241,6 +227,11 @@ body{
 			
 		}
 
+      .primary-nav{
+      padding-left: 0px;
+      
+    }
+
 		 /* menu*/
 .primary-nav li a{
 		color: #000000;
@@ -255,10 +246,7 @@ body{
 		}
 
 
-.primary-nav ul li{
-		color: green;
 
-	}
 				 /* Header*/
 
 
@@ -275,6 +263,10 @@ body{
 
 .navigation {
   padding-top: 30px;
+  padding-left: 0px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
   float: left; }
   .navigation li {
     display: inline-block; }
@@ -282,13 +274,16 @@ body{
     color: rgba(255, 255, 255, 0.75);
     font-size: 13px;
     font-weight: 700;
-    margin-left: 147px;
     text-transform: uppercase; }
 
-    .primary-nav li:nth-child(1) {
-		margin-left: -147px;
+.first_nav{
+margin-left: 0px;
+ }
 
-	}
+.mar_nav{
+margin-left: 145px;
+ }
+
 
 
     .navigation a:hover, .navigation a.active {
@@ -417,15 +412,7 @@ body{
       -webkit-transform: translateY(0) rotate(-45deg);
       transform: translateY(0) rotate(-45deg); }
 
-.main_circle_position{
-  background-color: transparent;
-  width: 600px;
-margin: auto;
-  margin-top: -120px;
-  position: relative;
-  z-index: 999;
 
-}
 
 
 .catalog_categorymain{
@@ -435,19 +422,6 @@ margin: 0 auto;
 margin-top: 35px;
 margin-bottom: 200px;
 }
-
-.catalog_categoryies{
-position: relative;
-width: 150px;
-margin: 0 auto;
-margin-top: 35px;
-margin-bottom: 200px;
-}
-
-.catalog_product_mbot{
-  margin-bottom: 100px;
-}
-
 
 
 .banner {
@@ -551,6 +525,7 @@ footer{
   min-height: 350px;
   background-color: #252525;
   padding-top: 85px;
+  margin-top: 50px;
 }
 
 .logo_fut{
@@ -677,4 +652,15 @@ background-color: #EF1E76;
  position: absolute;
  margin-top: 125px;
  font-size: 14px;
+}
+
+a{
+display: block;
+position: relative;
+}
+
+
+a:hover{
+display: block;
+text-decoration: none;
 }

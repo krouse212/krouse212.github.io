@@ -22,57 +22,11 @@
 </head>
 <body>
 
+<?php
 
-<header>
+include '/includs/header.php';
 
-<div class="content">
-<div class="row">
-	<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4 logo">
-		<a href="../index.html">
-			<span class="logo_top bold">Артефакт</span>
-				<br>
-			<div class="logo_bot">No mego slogan carrito de compras.</div> 	
-		</a>
-	</div>
-
-
-	<div class="col-lg-3 col-md-2  col-xs-4 search">
-	<form class="search_form">
-		<input type="text" name="" placeholder="Поиск...." maxlength="20" class="search_input">
-		<a href="javascript:void(0);" class="">
-			<i class="fa fa-search search_icon" aria-hidden="true"></i>
-		</a>
-
-	</form>
-	</div>
-
-
-	<div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-xs-3 bold phone">
-		<a href="javascript:void(0);" class="phone_href">
-			<i class="fa fa-phone phone_icon" aria-hidden="true"></i> <span class="phone_pink"> +7 (903) </span> 293 34 12
-		</a>
-	</div>
-
-	<div class="col-lg-offset-1 col-lg-2 col-md-2 col-xs-1  feedback fedb_button button_head bold">
-
-		перезвоните мне
-	</div>
-	</div>
-
-	 <nav class="navigation" role="navigation">
-            <ul class="primary-nav bold">
-                <li><a class="first_nav" href="brand.html">О Бренде</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="training.html">Обучение</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="partners.html">Партнеры</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-            </ul>
-    </nav>
-    <a href="#" class="nav-toggle">Menu<span></span></a>
-</div>
-
-</header>
+?>
 
 
 <div class="content">
@@ -177,13 +131,9 @@
 <p class="bold b2_caption mbot_parts1 ">
 Наши салоны
 </p>
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4489.788593657397!2d37.6223456!3d55.7603384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sin!4v1507559947351" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<br>
-<br>
-<br>
-<div class="content">
+
+
 <p class="bold b2_caption mbot_part">
 Наши адреса
 </p>
@@ -297,86 +247,14 @@
 
 	</div>
 
-<br>
-<br>
-<br>
-
-<footer>
-	
-<div class="content">
-<div class="row">
-
-			<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4 logo">
-		<a href="../index.html">
-			<span class="logo_top logo_fut bold">Артефакт</span>
-				<br>
-			<div class="logo_bot">No mego slogan carrito de compras.</div>	
-		</a>
-</div>
 
 
-<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4">
 
+<?php
 
-	 <nav class="navigation_footer" role="navigation">
-            <ul class="primary_footer bold">
-            	<li><a href="../index.html">Главная</a></li>
-               <li><a class="first_nav" href="brand.html">О Бренде</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="training.html">Обучение</a></li>
-            </ul>
-    </nav>
+include '/includs/footer.php';
 
-
-</div>
-
-<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4">
-
-
-	 <nav class="navigation_footer" role="navigation">
-            <ul class="primary_footers bold">
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="partners.html">Партнеры</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-            </ul>
-    </nav>
-
-
-</div>
-
-<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4">
-
-<div class="footer_icons">
-<a href="https://twitter.com/">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-</a>
-</div>
-
-<div class="footer_icons">
-<a href="https://www.facebook.com/">
-<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-</a>
-</div>
-
-<div class="footer_icons">
-<a href="https://www.google.ru/">
-<i class="fa fa-google fa-2x" aria-hidden="true"></i>
-</a>
-</div>
-
-</div>
-
-<div class="col-lg-3 col-lg-offset-0 col-md-offset-1 col-md-3 col-xs-offset-2 col-xs-4 copyright">
-Все парва защищены © 2017
-</div>
-
-</div>
-</div>
-
-
-</footer>
-
-
+?>
 
 
 

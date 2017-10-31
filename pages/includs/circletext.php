@@ -9,8 +9,7 @@
 
 
 </head>
-<body> 
-<div class="catalog-category-view categorypath-productos-html category-productos" >
+<body class="catalog-category-view categorypath-productos-html category-productos">
 <section class="mt-container ">
   
         <section class="main-container col2-left-layout">
@@ -41,23 +40,23 @@
         <li style="transform: rotate(30deg) skew(60deg);"><a href="#" class="active segundo"><span class="active enlace pelo">тусклая кожа</span></a></li>
         <li style="transform: rotate(60deg) skew(60deg);"><a href="#" class="active tercero"><span class="active enlace sanitario">постакне и рубцы</span> </a></li>
         <li style="transform: rotate(90deg) skew(60deg);"><a href="#" class="active cuarto" ><span class="active enlace arrugas ">морщины</span></a></li>
-        <li style="transform: rotate(120deg) skew(60deg);"><a href="#" class="active quinto" ><span class="active enlace manchas ">тусклая кожа</span></a></li>
+        <li style="transform: rotate(120deg) skew(60deg);"><a href="#" class="active quinto" ><span class="active enlace manchas ">rhrjr кожа</span></a></li>
         <li style="transform: rotate(150deg) skew(60deg);"><a href="#" class="active sexto" ><span class="active enlace acne">постакне и рубцы</span></a></li>
         <li style="transform: rotate(180deg) skew(60deg);"><a href="#" class="active septimo" ><span class="active enlace flacidez">вялость кожи</span></a></li>
         <li style="transform: rotate(210deg) skew(60deg);"><a href="#" class="active octavo"  ><span class="active enlace pielgrasa">морщины</span></a></li>
-        <li style="transform: rotate(240deg) skew(60deg);"><a href="#" ><span class="active enlace fotosensibilidad">тусклая кожа</span></a></li>
+        <li style="transform: rotate(240deg) skew(60deg);"><a href="#" class="active vasabio"><span class="active enlace fotosensibilidad">тусклая кожа</span></a></li>
         <li style="transform: rotate(270deg) skew(60deg);"><a href="#" class="active decimo" ><span class="active enlace pielnaranja">постакне и рубцы</span></a></li>
         <li style="transform: rotate(300deg) skew(60deg);"><a href="#" class="active onceavo" ><span class="active enlace celulitis">вялость кожи</span></a></li>
-        <li style="transform: rotate(330deg) skew(60deg);"><a href="#" class="active doceavo" ><span class="active enlace flacidezdos">тусклая кожа</span></a></li>
+        <li style="transform: rotate(330deg) skew(60deg);"><a href="#" class="active doceavo" ><span class="active enlace flacidezdos">ffdds кожа</span></a></li>
     </ul>
 
 
 
     <div id="imagencentral">
         <div class="imagen-central-uno">
-        <img class="img-responsive" src="images/1.png" alt="Product" />            </div>
+        <img class="img-responsive" src="../../images/1.png" alt="Product" />            </div>
         <div  class="imagen-central-dos" style="display: none;">
-            <img class="img-responsive" src="images/2.png" alt="Product" />        </div>
+            <img class="img-responsive" src="../../images/2.png" alt="Product" />        </div>
     </div>
 
 </div>
@@ -85,7 +84,7 @@
     <div id="imagencentral">
 
         <div class="imagen-central-uno">
-        <img class="img-responsive" src="images/menu_circular01.png" alt="Product" />            </div>
+        <img class="img-responsive" src="../../images/menu_circular01.png" alt="Product" />            </div>
       
     </div>
 
@@ -114,6 +113,5 @@
         </div>
             </section>
 </section>
-</div>
 </body>
 </html>
