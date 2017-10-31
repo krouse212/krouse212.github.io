@@ -1,14 +1,5 @@
-@import url("//fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic");
-@import url("//fonts.googleapis.com/css?family=Poppins:400,300,500,600,700");
-* {
-  margin:0;
-  padding:0;
-}
-body {
-  line-height:1.55;
-  text-align:left;
-  font-family:Poppins;
-}
+
+
 img {
   border:0;
   outline:none;
@@ -16369,7 +16360,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
 
     .contcircular .price-box {
         float: right;
-        border-left: solid 1px #B1B1B1;
+        border-left: solid 10px #B1B1B1;
         padding-left: 5px;
         border: none;
         font-weight: bold;
@@ -17485,12 +17476,12 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
     .circular li {
         position: absolute;
         font-size: 1.4em;
-        width: 10em;
-        height: 10em;
+        width: 8em;
+        height: 8.5em;
         overflow: hidden;
         -webkit-transform-origin: 100% 100%;
         transform-origin: 100% 100%;
-        border: 2px solid #F5F5F5;
+        border: 0px solid #F5F5F5;
         -webkit-transition: all 1s ease;
         transition: all 1s ease;
         color: #aaa;
@@ -17765,7 +17756,7 @@ div#principiosactivos ul#listanaranja li, div#activeingredients ul#listanaranja 
     #contenedorproducto { width: 100%; height: 350px; margin-left: 15px; float: left; }
 
     #imagencentral { width: 100%; height: 300px; border-radius: 1000px; position: relative; top: 34px; overflow: hidden; z-index: -5; text-align:center; }
-    #imagencentral img{ border-radius: 1000px; margin: auto; width: 300px; }
+    #imagencentral img{ border-radius: 1000px; margin: auto; width: 300px; }  
 
     .arrugasm { margin-left: 118px; color: #652677; transform: rotate(-6deg) scale(1); }
     .manchasm { color: #A7347A; margin-left:  92px; transform: rotate(-6deg) scale(1); }
@@ -20339,4 +20330,9 @@ body:not(.cms-index-index) .logo-home .logo-not-home .logo{display: inline-block
 
 body{
 	background-color: #fff;
+}
+
+
+.circle_position{
+margin-left: 9%;
 }

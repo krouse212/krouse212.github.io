@@ -134,6 +134,9 @@ margin-bottom: 30px;
 
 .sub_tittles_author{
   color: #FF2A8C;
+  position: relative;
+  float: right;
+  margin-left: 10px;
 }
 
 .sub_tittles_author:hover{
