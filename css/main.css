@@ -54,7 +54,7 @@ h6 {font-size: 12px;font-weight: bold;}
 	}
 
 body{
-    padding-top: 40px;
+    padding-top: 120px;
     padding-left: 0px;
     padding-right: 0px;
     line-height: 150%;
@@ -84,7 +84,7 @@ body{
 	padding-left: 33px;
 	padding-right: 33px;
 	font-size: 12px;
-	width: auto;
+
 	text-transform: uppercase;
 	border-radius: 50px;
 
@@ -118,8 +118,8 @@ header{
     background-color: white;
     width: 100%;
     top: 0;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 9px;
     z-index: 999;
     
   }
@@ -245,11 +245,7 @@ header{
 
 
 		 /* feedback*/
-.feedback{
 
-
-			
-		}
 
       .primary-nav{
       padding-left: 0px;
@@ -633,13 +629,21 @@ footer{
 }
 
 
-.footer_icons{
+.footer_icons,.footer_icons1{
   position: relative;
   float: left;
   margin-left: 41px;
 }
 
+.footer_icons1{
+margin-top: 20px;
+}
 
+
+.paginations{
+margin-top: 100px;
+margin-bottom: 100px;
+}
 
 .footer_icons a{
   color: white;
@@ -647,6 +651,13 @@ footer{
   z-index: 10;
   margin-bottom: 30px;
 }
+
+
+
+.footer_icons1 a{
+  color: white;
+  position: relative;
+  margin-bottom: 30px;}
 
 
 .footer_icons a::before{
@@ -702,3 +713,4 @@ display: none;
 
 
         }
+
