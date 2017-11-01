@@ -20336,3 +20336,29 @@ body{
 .circle_position{
 margin-left: 9%;
 }
+
+
+  @media screen and (max-width: 1199px) {
+
+
+
+.circle_position{
+margin: 0 auto;
+padding-left: 100px;
+overflow: visible;
+position: relative;
+}
+
+.circle_positions{
+margin: 0 auto;
+margin-left: 110px;
+padding-left: 0px;
+overflow: visible;
+position: relative;
+
+}
+
+
+
+
+        }
