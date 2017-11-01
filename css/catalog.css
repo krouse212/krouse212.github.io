@@ -94,6 +94,9 @@ padding-top: 20px;
 
 .catalog_category{
 font-size: 16px;
+position: relative;
+width: 500px;
+height: 50px;
 }
 
 .catalog_categorys{
@@ -102,6 +105,13 @@ float: left;
 margin-right: 30px;
 color: #000;
 }
+
+.catalog_categorys2{
+
+margin-right: 0px;
+
+}
+
 
 
 .catalog_category_activ{
