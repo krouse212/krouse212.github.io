@@ -642,7 +642,12 @@ footer{
 .footer_icons1{
 margin-top: 20px;
 }
-
+.sub_tittles_author{
+  color: #FF2A8C;
+  position: relative;
+  float: right;
+  margin-left: 10px;
+}
 
 .paginations{
 margin-top: 100px;
