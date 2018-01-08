@@ -5,7 +5,40 @@
 	float: none;
 }	
 
-	
+	.feedback{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: green;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 10;	
+
+
+}
+
+.feedb{
+background-color: transparent;
+border: 0px solid transparent;
+box-shadow: none;
+border-bottom: 2px solid #DEE0E5;
+width: 264px;
+}
+
+
+.feedb::selection{ 
+background-color: transparent;
+cursor: pointer;
+
+}
+
+
+.feedb{
+background-color: transparent;
+}
+
 
 .light{
 	font-family: "Roboto";
@@ -664,7 +697,7 @@ opacity: .5;
 	position: relative;
 	margin-top: -174px;
 		opacity: 1;
-z-index: 20;
+z-index: 3;
 position: relative;
 display: flex;
 justify-content: center;
@@ -786,7 +819,7 @@ font-weight: 700;
 	display: flex;
 	background-color: rgba( 2,21,46,0.85);
 	min-height: 790px;
-	width: 45%;
+	width: 104.7%;
 	justify-content: flex-end;
 
 }
@@ -795,11 +828,12 @@ font-weight: 700;
 	display: flex;
 	background-color: #fff;
 	min-height: 650px;
-	width: 52%;
-		min-width: 700px;
+	width: 100%;
+		min-width: 800px;
 		max-width: 900px;
 	padding-left: 120px;
 	padding-top: 120px;
+	margin-top: 75px;
 
 
 }
@@ -1161,6 +1195,38 @@ color: #8E939A;
 margin-top: 0px;
 
 }
+
+.tabbs{ 
+font-size: 13px;
+
+}
+
+.map, .contactstext, .tabbs::selection{ 
+background-color: transparent;
+cursor: pointer;
+
+}
+
+iframe::selection{ 
+background-color: transparent;
+cursor: pointer;
+
+}
+
+.contactstext::selection{ 
+background-color: transparent;
+cursor: pointer;
+
+}
+
+.name::selection{ 
+background-color: transparent;
+cursor: pointer;
+
+}
+
+
+
 			/* end first tab */
  
 	/* end tabs */
@@ -1859,6 +1925,11 @@ color: #00CA9C;
 cursor: pointer !important;
 }	
 
+.coopyright a::selection{ 
+background-color: transparent;
+cursor: pointer;
+
+}
 
 
 
@@ -1877,15 +1948,90 @@ cursor: pointer !important;
 }	
 
 
+
 .whyweright{
 	width: 100%;
 	float: none;
 	position: relative;
 	float: none;
 	display: block;
+		width: 100%;
+		min-width: 400px;
 }	
 
 
 
+.contein{
+	width: 100%;
+	min-width: 400px;
+	margin: 0 auto;
+}
+
+.howwework{
+width: 100%;
+min-width: 400px;
+margin: 0 auto;
+
+
+}
+
+
+
+.projectdevelopmentright{
+
+	width: 100%;
+	min-width: 400px;
+
+
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 1px;
+	max-width: 480px;
+	min-width: 320px;
+	max-height: 360px;
+	width: 48%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.reviews{
+
+
+background-color: transparent;
+margin: 0 auto;
+width: 100%;
+min-width: 400px;
+
+}
+
+
+.review{
+margin: 0 auto;
+margin-bottom: 150px;
+margin-top: 175px;
+width: 100%;
+min-width: 400px;
+background-color: transparent;
+}
+
+
+.coopyright{
+width: 1000%;
+min-width: 400px;
+
+
+}	
+
+
 
 	}
+
+
+html{
+position: relative;
+overflow-x: hidden; 
+}

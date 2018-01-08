@@ -47,6 +47,37 @@
 
 	</header>
 
+				<div id="feedback" class="feedback">
+					<div class="">
+						Контактна форма
+					</div>	
+
+				<form>
+
+			        <!-- Hidden Required Fields -->
+				        <input type="hidden" name="project_name" value="Specbud">
+				        <input type="hidden" name="admin_email" value="kraine212@gmail.com">
+				        <input type="hidden" name="formsubject" value="Заявка с сайта">
+			        <!-- END Hidden Required Fields -->
+
+
+						<input type="text" name="Имя" id="name" class="feedb" placeholder="Ваше ім’я" required><br>
+
+						<input type="text" name="Телефон" id="email" class="feedb" placeholder="Ваш телефон" required><br>
+
+						
+
+						<br>
+
+						<div class="formbut">
+							<button id="" class="buttonform">Надіслати</button>
+						</div>
+
+			    </form>					
+
+
+				</div>
+
 					<!--  menu normal device  -->
 		<div class="wrapper">
 
@@ -71,6 +102,10 @@
 		<!--  end menu  -->
 
 		<!--  main slider  -->
+
+		<div class="content">
+<div class="row">
+	<div class="col-xs-12 col-lg-12">
 		<div class="contain">	
 			<div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
@@ -83,7 +118,7 @@
 							<br>
 							<span class="buduiban"><span>Будуй разом з нами!</span></div>
 								<div class="btnsban">
-								<button class="buts medium">зробити замовлення</button>
+								<button onclick="myFunctions()" class="buts medium" >зробити замовлення</button>
 								<button class="btnmove medium">дивитись відео <i class="fa fa-play playicon" aria-hidden="true"></i>
 								</button>
 								</div>
@@ -130,6 +165,9 @@
 </div>
 
 </div>
+</div>
+</div>
+</div>
 		<!-- end  advantages in slider footer  -->
 
 
@@ -162,7 +200,7 @@ developers who work We're a close team of creatives, designers developers who wo
 	<div class="whywe">		
 	<div class="content">
 <div class="row">
-	<div class="col-md-2">
+	<div class="col-md-2 col-lg-6">
 		<div class="whyweleft">	
 			<div class="whywelefttext">
 				<div class="whywetitle">
@@ -174,13 +212,13 @@ developers who work We're a close team of creatives, designers developers who wo
 		</div>
 	</div>
 
-	<div class="col-md-2">
+	<div class="col-md-2 col-lg-6">
 		<div class="whyweright">	
 			<div class="whywerighttext">	
 				<div class="whywerighttext1">	
 					<i class="fa fa-fire fa-3x whywheicon1" aria-hidden="true"></i>
 					<div class="whywefirsttitle bold">
-						ШВИДКА РЕАКЦІЯ
+						<span>ШВИДКА РЕАКЦІЯ</span>
 					</div>
 					<span>We're a close team of creatives, designers  developers who work</span>
 				</div>	
@@ -188,7 +226,7 @@ developers who work We're a close team of creatives, designers developers who wo
 				<div class="whywerighttext1 whywerighttext2">	
 					<i class="fa fa-check-square-o fa-3x whywheicon1" aria-hidden="true"></i>
 					<div class="whywefirsttitle bold">
-						НИЗЬКІ ЦІНИ
+						<span>НИЗЬКІ ЦІНИ</span>
 					</div>
 					<span>We're a close team of creatives, designers  developers who work</span>
 					</div>	
@@ -199,7 +237,7 @@ developers who work We're a close team of creatives, designers developers who wo
 				<div class="whywerighttext1 whywerighttext3">	
 					<i class="fa fa-bar-chart fa-3x whywheicon1" aria-hidden="true"></i>
 					<div class="whywefirsttitle bold">
-						НОВІТНЄ ОБЛАДНАННЯ
+						<span>НОВІТНЄ ОБЛАДНАННЯ</span>
 					</div>
 					<span>We're a close team of creatives, designers  developers who work</span>
 					</div>	
@@ -208,7 +246,7 @@ developers who work We're a close team of creatives, designers developers who wo
 				<div class="whywerighttext1 whywerighttext4">	
 					<i class="fa fa-bolt fa-3x whywheicon1" aria-hidden="true"></i>
 					<div class="whywefirsttitle bold">
-						ПОТУЖНА ТЕХНІКА
+						<span>ПОТУЖНА ТЕХНІКА</span>
 					</div>
 					<span>We're a close team of creatives, designers  developers who work</span>
 				</div>	
@@ -351,7 +389,7 @@ developers who work We're a close team of creatives, designers developers who wo
 				<div class="services">	
 				<div class="menu1">
   <br id="tab2"/><br id="tab3"/>
-  <a href="#tab1">ЗАЛИВКА БЕТОНОМ</a><a href="#tab2">ЗАКАЗ МАТЕРІАЛУ</a><a href="#tab3">БУДОВА КОМПЛЕКСУ</a>
+  <a class="tabbs" href="#tab1">ЗАЛИВКА БЕТОНОМ</a><a class="tabbs" href="#tab2">ЗАКАЗ МАТЕРІАЛУ</a><a class="tabbs" href="#tab3">БУДОВА КОМПЛЕКСУ</a>
   <div class="tabsss">
 	 <div class="tabsbg">	 	
 	 </div>
@@ -366,7 +404,7 @@ developers who work We're a close team of creatives, designers developers who wo
 					ultricies ex sed bibendum ipsum maximus. Donec commodo malesuada sodales felis volutpat eget nunc ultrices 
 					ultricies ex sed bibendum ipsum maximus. </span>  	
 		 </div>
-		 <button class="buts aboutcompanybut tabbut bold">замовити послугу</button>
+		 <button onclick="myFunctions()" class="buts aboutcompanybut tabbut bold">замовити послугу</button>
 	 </div>
 
   </div>
@@ -785,6 +823,19 @@ function myFunction() {
 }
 </script>
 
+			<!-- end small menu js -->
+
+
+			<!-- feedback menu js -->
+<script>
+function myFunctions() {
+
+    	$("#feedback").toggleClass("displ");   
+
+}
+</script>
+
+			<!-- end feedback menu js -->
 				
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	<!-- Ajax -->
 		<script src="js/jquery.cbpFWSlider.min.js"></script>	<!-- Slider -->
