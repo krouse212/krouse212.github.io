@@ -7,7 +7,7 @@
 
 	.feedback{
 
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	background-color: green;
@@ -819,7 +819,7 @@ font-weight: 700;
 	display: flex;
 	background-color: rgba( 2,21,46,0.85);
 	min-height: 790px;
-	width: 104.7%;
+	width: 52%;
 	justify-content: flex-end;
 
 }
@@ -829,8 +829,8 @@ font-weight: 700;
 	background-color: #fff;
 	min-height: 650px;
 	width: 100%;
-		min-width: 800px;
-		max-width: 900px;
+	min-width: 800px;
+	max-width: 900px;
 	padding-left: 120px;
 	padding-top: 120px;
 	margin-top: 75px;
@@ -990,12 +990,11 @@ margin-top: 25px;
 	display: flex;
 	background-color: rgba( 2,21,46,0.85);
 	min-height: 790px;
-	width: 45%;
-	margin-left: 55%;
+	width: 100%;
+	margin-left: 0;
 	justify-content: flex-start;
-	float: right;
-	position: absolute;
 	padding-left: 100px;
+
 
 }
 
@@ -1005,21 +1004,17 @@ margin-top: 25px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-repeat: no-repeat;
-
 	background-position: center;
-
 	display: flex;
 	background-color: #fff;
 	min-height: 650px;
-	width: 52%;
-	min-width: 700px;
-	max-width: 900px;
-	padding-left: 100px;
+	width: 100%;
+	padding-left: 0px;
 	padding-top: 100px;
-	position: absolute;
 	right: 0;
-	margin-right: 45%;
 	float: right;
+	justify-content: flex-end;
+
 
 
 }
@@ -1212,6 +1207,10 @@ background-color: transparent;
 cursor: pointer;
 
 }
+iframe{
+width: 560px;
+ height: 175px;
+}
 
 .contactstext::selection{ 
 background-color: transparent;
@@ -1282,6 +1281,7 @@ cursor: pointer;
 	width: 48%;
 	text-align: center;
 	cursor: pointer;
+	margin: 1px auto;
 }
 
 .grid figure img {
@@ -1630,6 +1630,9 @@ background-color: #18C99D;
 }
 
 
+
+
+
 .soc{
 position: relative;
 z-index: 2;
@@ -1717,7 +1720,6 @@ input:active, :hover, :focus {
 
 .formbut{
 display: flex;
-
 justify-content: flex-end;
 }
 
@@ -1936,15 +1938,20 @@ cursor: pointer;
 			/* END footer */
 
 
+
 @media (max-width: 1000px) {
 
 .whyweleft{
 	width: 100%;
 	float: none;
-	position: relative;
+	min-width: 100px;
+	padding-left: 0px;
+	position: absolute;
 	justify-content: center;
-	display: block;
-	background-color: green;
+	display: flex;
+	margin-bottom: 0px;
+	min-height: 600px;
+	margin-top: -375px;
 }	
 
 
@@ -1957,9 +1964,119 @@ cursor: pointer;
 	display: block;
 		width: 100%;
 		min-width: 400px;
+		margin: auto;
+		margin-bottom: 75px;
+		margin-top: 625px;
 }	
 
+.projectdevelopment{
+flex-direction: column-reverse;
+align-items: flex-start;
+}	
 
+.projectdevelopmentleft{
+	min-height: 600px;
+	width: 100%;
+	margin-left: 0;
+	justify-content: center;
+	padding-left: 100px;
+	top: 0;
+	margin-top: 0px;
+	float: none;
+
+
+}
+
+.tabsbg{ 
+	display: none;
+}
+
+.tabblock{ 
+width: 90%;
+margin-left: 5%;
+background-color: transparent;
+margin-top: 70px;
+margin-bottom: 50px;
+}
+
+.projectdevelopmentright{
+
+	min-height: 650px;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 100px;
+	right: 0;
+	float: none;
+	justify-content: center;
+	position: relative;
+
+
+}
+
+
+/* GALLERY */
+
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Common style */
+
+.nodispl{
+display: none;
+}
+
+
+.contactsleft{
+width: 100%;
+float: none;
+margin: 0 auto;
+}
+
+.contactsright{
+width: 100%;
+float: none;
+margin: 0 auto;
+margin-top: 270px;
+}
+
+.name{
+width: 350px;
+margin-right: 0px;
+margin-left: 0px;
+left: 0;
+}
+
+
+.email{
+margin-right: 400px;
+}
+
+
+.messege{
+	width: 750px;
+	height: 180px;
+	margin-top: 14px;
+}
+
+.formbut{
+justify-content: flex-start;
+padding-left: 600px;
+}
+
+
+iframe{
+width: 100%;
+ height: 175px;
+ margin-bottom: 25px;
+}
+
+
+.adress{
+margin-left: 25px;
+}
 
 .contein{
 	width: 100%;
@@ -1975,6 +2092,21 @@ margin: 0 auto;
 
 }
 
+.howweworkleft
+{
+width: 100%;
+margin: 0 auto;
+margin-top: 50px;
+display: block;
+margin-left: 25%;
+}
+
+.howweworkright
+{
+text-align: center;
+margin-bottom: 75px;
+}
+
 
 
 .projectdevelopmentright{
@@ -1983,19 +2115,6 @@ margin: 0 auto;
 	min-width: 400px;
 
 
-}
-
-.grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 1px;
-	max-width: 480px;
-	min-width: 320px;
-	max-height: 360px;
-	width: 48%;
-	text-align: center;
-	cursor: pointer;
 }
 
 .reviews{
@@ -2020,12 +2139,23 @@ background-color: transparent;
 
 
 .coopyright{
-width: 1000%;
+width: 100%;
 min-width: 400px;
 
 
 }	
 
+.coopyrightleft, .coopyrightright{
+margin-top: 60px;
+}	
+
+.advantag{
+
+	padding-left: 32px;
+	padding-right: 25px;
+
+
+}
 
 
 	}
@@ -2034,4 +2164,38 @@ min-width: 400px;
 html{
 position: relative;
 overflow-x: hidden; 
+}
+
+
+@media (max-width: 767px) {
+
+.whyweleft{
+background-color: black;
+
+}	
+
+.howweworkleft
+{
+margin-left: 0;
+}
+
+
+
+.grid {
+display: grid;
+grid-template-columns: 1fr;
+
+}
+
+
+.vasyok{
+display: none;
+
+}
+
+
+
+
+
+
 }
