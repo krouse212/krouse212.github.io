@@ -2125,8 +2125,13 @@ font-size: 28px;
 .tabbs{
 font-size: 24px;
 margin-left: 20px;
+
 }	
 
+.menu1{
+height: 50px;
+padding-top: 12px;
+}	
 
 .name{
 font-size: 28px;
