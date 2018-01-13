@@ -2134,9 +2134,11 @@ margin-top: 70px;
 margin-bottom: 50px;
 }
 
-.projectdevelopmentright{
 
-	min-height: 650px;
+
+.projectdevelopmentright{
+	background-image: none;
+	min-height: 850px;
 	width: 100%;
 	padding-left: 0px;
 	padding-top: 100px;
@@ -2149,6 +2151,7 @@ margin-bottom: 50px;
 	margin-bottom: 50px;
 
 }
+
 
 
 /* GALLERY */
@@ -2206,8 +2209,13 @@ padding-left: 600px;
 
 iframe{
 width: 100%;
- height: 175px;
+ height: 575px;
  margin-bottom: 25px;
+}
+
+.tabblock{ 
+margin-left: 5%;
+min-width: 90%;
 }
 
 
@@ -2228,6 +2236,25 @@ margin: 0 auto;
 
 
 }
+
+.contactstitle{
+font-size: 30px;
+}
+
+.adresubk{
+font-size: 26px;
+}
+
+.contactstext{
+font-size: 22px;
+}
+
+ .buttonform{
+font-size: 24px;
+width: 150px;
+height: 45px;
+}
+
 
 .howweworkleft
 {
