@@ -54,7 +54,7 @@ text-transform: uppercase;
 .fullpage{
 	font-family: 'Roboto';
 font-weight: 400;
-display: flex;
+
 background-color: green;
 width: 100%;
 min-width: 100%;
