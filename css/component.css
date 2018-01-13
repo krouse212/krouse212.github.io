@@ -55,7 +55,8 @@ text-transform: uppercase;
 	font-family: 'Roboto';
 font-weight: 400;
 background-color: red;
-width: 100% !important;;
+width: 100%;
+min-width: 100%;
 overflow: hidden;
 }
 
