@@ -700,12 +700,16 @@ font-size: 90px;
 }
 
 .specbudban::after{
-display: none;
+margin-top: 100px;
+width: 417px;
+margin-left: -417px;
 }
 
 
 .buduiban::after{
-display: none;
+margin-top: 100px;
+width: 873px;
+margin-left: -872px;
 }
 
 .btnmove{
@@ -715,6 +719,9 @@ font-size: 25px;
 .buts{
 font-size: 25px;
 }
+
+
+
 
 
 .wrapper1 {
@@ -2058,7 +2065,7 @@ cursor: pointer;
 	display: flex;
 	margin-bottom: 0px;
 	min-height: 600px;
-	margin-top: -375px;
+	margin-top: -575px;
 }	
 
 
@@ -2073,8 +2080,27 @@ cursor: pointer;
 		min-width: 400px;
 		margin: auto;
 		margin-bottom: 75px;
-		margin-top: 625px;
+		margin-top: 675px;
+		height: 1000px;
+
 }	
+
+
+.whywerighttext3, .whywerighttext4{
+margin-top: 250px;
+
+}	
+
+.whywerighttext1{
+font-size: 25px;
+
+}	
+
+.whywefirsttitle{
+font-size: 25px;
+}	
+
+
 
 .projectdevelopment{
 flex-direction: column-reverse;
@@ -2266,6 +2292,33 @@ margin-top: 60px;
 
 }
 
+
+.aboutcompany2{
+font-size: 32px;
+}
+
+.aboutcompany3{
+font-size: 25px;
+}
+
+.aboutcompanybut{
+font-size: 27px;
+}
+
+.whywetitle{
+font-size: 34px;
+}
+
+
+.whywelefttext{
+padding-top: 75px;
+padding-bottom: 75px;
+font-size: 25px;
+}
+
+.whywerighttext1{
+
+}
 
 	}
 
