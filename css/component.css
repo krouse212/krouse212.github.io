@@ -10,7 +10,7 @@
 	display: none;
 	justify-content: center;
 	align-items: center;
-	background-color: green;
+	background-color: transparent;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -2228,6 +2228,6 @@ html{
 }
 
 body{
-	background-color: red;
+	background-color: transparent;
 		overflow-x: hidden;
 }
