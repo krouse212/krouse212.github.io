@@ -54,6 +54,7 @@ text-transform: uppercase;
 .fullpage{
 	font-family: 'Roboto';
 font-weight: 400;
+background-color: red;
 }
 
 .companyname::selection {
@@ -826,14 +827,14 @@ font-weight: 700;
 
 .whyweright{
 	display: flex;
-	background-color: #fff;
+	background-color: rgba( 255, 255, 255, 0.95);
 	min-height: 650px;
 	width: 100%;
-	min-width: 800px;
-	max-width: 900px;
+	min-width: 700px;
+	max-width: 760px;
 	padding-left: 120px;
 	padding-top: 120px;
-	margin-top: 75px;
+	margin-top: 25px;
 
 
 }
@@ -843,13 +844,14 @@ font-weight: 700;
 	width: 460px;
 	padding-right: 50px;
 	color: #fff;
-	padding-top: 175px;
+	padding-top: 198px;
+
 }
 
 .whywetitle{
 	color: #18C99D;
 	font-size: 24px;
-	margin-left: 18px;
+	margin-left: 0px;
 	margin-bottom: 5px;
 }
 
@@ -896,7 +898,7 @@ margin-top: 15%;
 
 .whywefirsttitle{
 	font-size: 17px;
-	padding-left: 9px;
+	padding-left: 0px;
 	margin-bottom: 17px;
 }
 
@@ -907,7 +909,7 @@ margin-top: 15%;
 	height: 1px;
 	background-color: #18C99D;
 	margin-top: 11px;
-	margin-left: -9px;
+	margin-left: 0px;
 
 }
 
@@ -945,7 +947,7 @@ padding-right: 15px;
 }
 
 .howweworkrighttitle{
-
+font-size: 22px;
 
 }
 
@@ -1004,13 +1006,16 @@ margin-top: 25px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center-right;
 	display: flex;
-	background-color: #fff;
+	background-color: rgba( 255, 255, 255, 0.95);
 	min-height: 650px;
 	width: 100%;
+	max-width: 800px;
 	padding-left: 0px;
 	padding-top: 100px;
+	padding-right: 40px;
+	padding-left: 20px;
 	right: 0;
 	float: right;
 	justify-content: flex-end;
@@ -1263,6 +1268,7 @@ cursor: pointer;
 	margin: 0 auto;
 	padding: 0px;
 	width: 100%;
+	max-width: 1900px;
 	list-style: none;
 	text-align: center;
 	display: flex;
@@ -1275,13 +1281,14 @@ cursor: pointer;
 	float: left;
 	overflow: hidden;
 	margin: 1px;
-	max-width: 480px 25%;
+	max-width: 25%;
 	min-width: 320px;
 	max-height: 360px;
-	width: 48%;
+	width: 100%;
 	text-align: center;
 	cursor: pointer;
 	margin: 1px auto;
+
 }
 
 .grid figure img {
@@ -1380,7 +1387,7 @@ figure.effect-oscar h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,150%,0);
+	transform: translate3d(0,250%,0);
 }
 
 figure.effect-oscar figcaption::before,
@@ -1412,6 +1419,8 @@ figure.effect-oscar:hover img {
 
 
 
+
+
 .logogal{
 
 	background-color: transparent;
@@ -1422,6 +1431,7 @@ figure.effect-oscar:hover img {
 	margin: 0 auto;
 	margin-bottom: 40px;
 	margin-top: -40px;
+	opacity: 0;
 }
 
 .logogal:hover{
@@ -1429,6 +1439,12 @@ figure.effect-oscar:hover img {
 	cursor: pointer!important;
 	opacity: 1;
 }
+
+
+figure.effect-oscar:hover .logogal {
+	opacity: 1;
+}
+
 
 .gallerybefore{
 
