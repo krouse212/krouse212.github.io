@@ -730,6 +730,12 @@ padding-left: 25px;
 
 .coopyright{
 background-color: red;
+display: block;
+position: relative;
+z-index: 10;
+margin-top: 0px;
+min-width: 100px;
+width: 100%;
 }
 
 
