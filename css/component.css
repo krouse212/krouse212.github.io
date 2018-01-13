@@ -670,10 +670,13 @@ header {
 @media (max-width: 1000px) {
 
 
+
+
+
 .sliderimg1, .sliderimg2, .sliderimg3, .sliderimg4, .sliderimg5{
 	width: 100%;
-	max-height: 670px;
-	min-height: 668px;
+	max-height: 1270px;
+	min-height: 1268px;
 }
 
 .cbp-fwslider ul li > a,
@@ -684,7 +687,6 @@ header {
 	justify-content: center;
 	align-items: top;
 	width: 100%;
-
 
 }
 
@@ -749,7 +751,7 @@ opacity: .5;
 
 body{
 
-			zoom: 150%;
+			font-size: 550%;
 }
 
 }
