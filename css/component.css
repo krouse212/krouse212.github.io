@@ -716,7 +716,7 @@ margin-left: -872px;
 font-size: 25px;
 }
 
-.buts{
+.buts,{
 font-size: 25px;
 }
 
@@ -728,15 +728,6 @@ margin-top: 350px;
 padding-left: 25px;
 }
 
-.coopyright{
-background-color: red;
-display: block;
-position: relative;
-z-index: 10;
-margin-top: 0px;
-min-width: 100px;
-width: 100%;
-}
 
 
 
@@ -2115,8 +2106,20 @@ font-size: 25px;
 
 }	
 
-.whywefirsttitle{
+.whywefirsttitle, .howweworkrighttext, .servicestext, .reviewstext, .reviewsposition{
 font-size: 25px;
+}	
+
+.howweworkrighttitle, .servicestitle{
+font-size: 30px;
+}	
+
+.reviewstitle{
+font-size: 30px;
+}	
+
+.reviewsname{
+font-size: 28px;
 }	
 
 
