@@ -675,8 +675,9 @@ header {
 
 .sliderimg1, .sliderimg2, .sliderimg3, .sliderimg4, .sliderimg5{
 	width: 100%;
-	max-height: 1270px;
-	min-height: 1268px;
+	max-height: 1370px;
+	min-height: 1368px;
+	padding-left: 50px;
 }
 
 .cbp-fwslider ul li > a,
@@ -694,7 +695,26 @@ header {
 display: block;
 }
 
+.companyname{
+font-size: 90px;
+}
 
+.specbudban::after{
+display: none;
+}
+
+
+.buduiban::after{
+display: none;
+}
+
+.btnmove{
+font-size: 25px;
+}
+
+.buts{
+font-size: 25px;
+}
 
 
 .wrapper1 {
