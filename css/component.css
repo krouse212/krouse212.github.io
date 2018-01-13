@@ -6,38 +6,81 @@
 }	
 
 	.feedback{
-
 	display: none;
 	justify-content: center;
 	align-items: center;
-	background-color: green;
 	height: 100%;
 	width: 100%;
 	position: fixed;
 	z-index: 10;	
 	overflow-x: hidden;
 
+
+}
+
+
+
+.feedbackss{ 
+background-color: #E5E5E5;
+text-align: center;
+padding: 25px 50px 32px;
+position: relative;
+z-index: 5;
+
+}
+
+.feedbackclose{ 
+width: 100%;
+height: 100%;
+background-color: rgba( 0, 0, 0, 0.65);
+position: absolute;
+z-index: 1;
+
 }
 
 .feedb{
-background-color: transparent;
+background-color: #fff;
 border: 0px solid transparent;
 box-shadow: none;
-border-bottom: 2px solid #DEE0E5;
-width: 264px;
+width: 100%;
+background-color: #fff;
 }
 
 
 .feedb::selection{ 
-background-color: transparent;
+background-color: #fff;
 cursor: pointer;
 
 }
 
 
 .feedb{
-background-color: transparent;
+background-color: #fff;
+padding-left: 25px;
+padding-top: 20px;
+padding-bottom: 15px;
+margin-top: 22px;
 }
+
+
+
+
+.feedbacktitle{
+font-size: 22px;
+float: none;
+position: relative;
+width: 100%;
+}
+
+.feedbacktext{
+font-size: 16px;
+float: none;
+position: relative;
+color: #656B73;
+width: 80%;
+margin: 0 auto;
+}
+
 
 
 .light{
@@ -645,19 +688,36 @@ header {
 
 }
 
+.minwidth ul li {
+display: block;
+}
 
 
 
 
-.wrapper1{
+.wrapper1 {
 	display:none;
-	background-color: green;
+	background-color: rgba( 0, 0, 0, 0.95);
 	height: 100%;
 	width: 100%;
 	position: fixed;
 	z-index: 10;	
+	font-size: 2.5em;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
+
+.wrapper1 ul li a {
+	color: #fff;
+}
+
+
+.wrapper1 ul li a:hover {
+	color: #18C99D;
+	text-decoration: none;
+}
 .wrapper{
 	display: none;
 	background-color: transparent;
@@ -2031,7 +2091,9 @@ margin-bottom: 50px;
 	float: none;
 	justify-content: center;
 	position: relative;
-
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 
 }
 
@@ -2163,8 +2225,8 @@ background-color: transparent;
 .coopyright{
 width: 100%;
 min-width: 400px;
-
-
+padding-left: 30px;
+padding-right: 30px;
 }	
 
 .coopyrightleft, .coopyrightright{
@@ -2230,4 +2292,16 @@ html{
 body{
 	background-color: transparent;
 		overflow-x: hidden;
+			zoom: 100%;
+}
+
+.feedbbut{
+width: 250px;
+height: 45px;
+margin: 0 auto;
+background-color: #18C99D;
+}
+
+.feedbbut:hover{
+background-color: #9FA7B1;
 }
