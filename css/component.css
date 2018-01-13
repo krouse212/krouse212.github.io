@@ -720,13 +720,15 @@ font-size: 25px;
 font-size: 25px;
 }
 
-
+.contactformtitle{
+margin-top: 350px;
+}
 
 
 
 .wrapper1 {
 	display:none;
-	background-color: rgba( 0, 0, 0, 0.95);
+	background-color: rgba( 0, 0, 0, 0.9);
 	height: 100%;
 	width: 100%;
 	position: fixed;
