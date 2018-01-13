@@ -15,7 +15,7 @@
 	width: 100%;
 	position: fixed;
 	z-index: 10;	
-
+	overflow-x: hidden;
 
 }
 
@@ -99,13 +99,6 @@ a:hover{
 }
 
 
-html{
-	background-color: yellow;
-}
-
-body{
-	background-color: red;
-}
 
 
 
@@ -2227,4 +2220,14 @@ display: none;
 
 
 
+}
+
+html{
+	background-color: yellow;
+	overflow-x: hidden;
+}
+
+body{
+	background-color: red;
+		overflow-x: hidden;
 }
