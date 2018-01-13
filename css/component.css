@@ -2060,12 +2060,13 @@ cursor: pointer;
 	float: none;
 	min-width: 100px;
 	padding-left: 0px;
-	position: absolute;
+	position: relative;
 	justify-content: center;
 	display: flex;
 	margin-bottom: 0px;
 	min-height: 600px;
-	margin-top: -575px;
+	margin-top: 0px;
+	margin-bottom: 1200px;
 }	
 
 
@@ -2073,14 +2074,15 @@ cursor: pointer;
 .whyweright{
 	width: 100%;
 	float: none;
-	position: relative;
+	position: absolute;
 	float: none;
 	display: block;
 		width: 100%;
 		min-width: 400px;
 		margin: auto;
+		margin-left: 10%;
 		margin-bottom: 75px;
-		margin-top: 675px;
+		margin-top: 300px;
 		height: 1000px;
 
 }	
