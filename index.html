@@ -1,908 +1,266 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="ru" class="no-js">
 	<head>
-		<meta charset="UTF-8" />
-		<title>Cпецбуд</title>
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Forti</title>
+		<meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
+		<meta name="author" content="Wensa" />
+		<!-- Bootstrap -->
 		<script src="js/modernizr.custom.js"></script>
-
-
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.css" rel="stylesheet">
+		<link href="css/flickity.css" rel="stylesheet" >
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/queries.css" rel="stylesheet">
+		<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
 	</head>
 	<body>
-<div class="row">
-<div class="col-xs-12 col-md-12 col-lg-12">
-	<div class="fullpage">
-			<header>		<!-- Menu -->
-
-
-
-			<!-- small device -->
-		<div  id="smallmenu" class="wrapper1">
-
-	
-
-	<nav class="minwidth">
-	<div class="minwidth">	
-		<ul class="cd-primary-nav">
-			<li><a href="#0">Головна</a></li>
-			<li><a href="#aboutcompan">Про нас</a></li>
-			<li><a href="#services">Послуги</a></li>
-			<li><a href="#pricelis">Прайс-лист</a></li>
-			<li><a href="#">Замовники</a></li>
-			<li><a href="#">Партнери</a></li>
-			<li><a href="#contacts">Контакти</a></li>
-			<li><a href="#0">FAQ</a></li>
-		</ul>
-		</div>
-	</nav>
-</div>
-	
-
-<!--  end small device  -->
-
-
-
-	</header>
-
-			<div id="feedback" class="feedback">
-				<div   onclick="myFunctions()" class="feedbackclose">
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- open/close -->
+		<header>
+			<section class="hero">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row nav-wrapper">
+						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
+							<a href="#"><img src="img/logo-blue.png" alt=""></a>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
+							<p>МЕНЮ</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+						</div>
+					</div>
+					<div class="row hero-content">
+						<div class="col-md-12">
+							<h1 class="animated fadeInDown">Спутниковый мониторинг транспорта
+							 <br>в аренду</h1>
+							<a href="#" class="use-btn animated fadeInUp">Заказать консультацию</a> <a href="#about" class="learn-btn animated fadeInUp">Читать больше<i class="fa fa-arrow-down"></i></a>
+						</div>
+					</div>
 				</div>
-				<div class="feedbackss">
-					<div class="feedbacktitle bold">
-						Заповніть форму
-					</div>	
-						<br>
-					<div class="feedbacktext medium">
-						Заповніть форму нижче, щоб зробити замовлення 
-						прямо зараз!
-					</div>	
+			</section>
+		</header>
+		<section class="video" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1><a href="#" class="youtube-media"><i class="fa fa-play-circle-o"></i>Смотреть видео</a></h1>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features-intro">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 nopadding features-intro-img">
+						<div class="features-bg">
+							<div class="texture-overlay"></div>
+							<div class="features-img wp1">
+						
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="features-slider">
+								<ul class="slides" id="featuresSlider">
+									<li>
+										<h1>Место положения объекта</h1>
+										<p>Вы можете в реальном времени отслеживать маршрут объекта за выбраный временной интервал и отклонение от заданого маршрута.</p>
+									</li>
+									<li>
+										<h1>Остановки и стоянки</h1>
+										<p>Вы можете отслеживать остановки и стоянки объекта на карте, и точное время, проведенное на них. Также можно отследить общий пробег транспортного средства, и пробег за определенный промежуток времени.</p>
+									</li>
+									<li>
+										<h1>Уровень топлива</h1>
+										<p>Вы можете отслеживать уровень топлива в баке, все заправки и сливы топлива. Также Вы можете отслеживать расход топлива за выбраный период времени, расход топлива на 100км пробега или на 1час работы двигателя.</p>
+									</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features-list" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
 
-				<form>
-
-			        <!-- Hidden Required Fields -->
-				        <input type="hidden" name="project_name" value="Specbud">
-				        <input type="hidden" name="admin_email" value="kraine212@gmail.com">
-				        <input type="hidden" name="formsubject" value="Заявка с сайта">
-			        <!-- END Hidden Required Fields -->
-
-
-						<input type="text" name="Имя" id="name" class="feedb" placeholder="Ваше ім’я" required><br>
-
-						<input type="text" name="Телефон" id="email" class="feedb" placeholder="Ваш телефон" required><br>
-
-						<input type="text" name="Телефон" id="email" class="feedb" placeholder="Ваш e-mail" required><br>
-
-						<br>
-
-						<div class="formbut">
-							<button id="" class="buttonform feedbbut">ЗАМОВИТИ ЗАРАЗ</button>
+						<div class="col-md-4 feature-1 wp2">
+							<div class="feature-icon">
+								<i class="fa fa-desktop"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Бесплатный монтаж оборудования</h1>
+								<p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
+							</div>
+						</div>
+						<div class="col-md-4 feature-2 wp2 delay-05s">
+							<div class="feature-icon">
+								<i class="fa fa-flash"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Не нужно покупать оборудование</h1>
+								<p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
+							</div>
+						</div>
+						<div class="col-md-4 feature-3 wp2 delay-1s">
+							<div class="feature-icon">
+								<i class="fa fa-heart"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Лучшая система мониторинга</h1>
+								<p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply buy me a beer</a>. </p>
+							</div>
 						</div>
 
-			    </form>					
-
-
+					</div>
 				</div>
 			</div>
-					<!--  menu normal device  -->
-		<div class="wrapper">
-
-			<div class="logo">
-				<a href="" ><img class="logot" src="images/logo.png" alt="Specbud" title=""/></a>
-			</div>
-
-			<nav>
-				<ul>
-					<!--<li><a href="" class="active">Home</a></li>-->
-					<li><a href="#">Головна</a></li>
-					<li><a href="#aboutcompan">Про нас</a></li>
-					<li><a href="#services">Послуги</a></li>
-					<li><a href="#pricelis">Прайс-лист</a></li>
-					<li><a href="#">Замовники</a></li>
-					<li><a href="#">Партнери</a></li>
-					<li><a href="#contacts">Контакти</a></li>
-				</ul>
-			</nav>
-		</div>
-
-		<!--  end menu  -->
-
-		<!--  main slider  -->
-
-		<div class="content">
-<div class="row">
-	<div class="col-xs-12 col-lg-12">
-		<div class="contain">	
-			<div id="cbp-fwslider" class="cbp-fwslider">
-				<ul>
-					<li><div class="sliderimg1">
-						<div class="contein">
-										
-										<!--  main text in slider  -->
-
-							<div class="companyname"><span class="specbudban">SPECBUD.</span>
-							<br>
-							<span class="buduiban"><span>Будуй разом з нами!</span></div>
-								<div class="btnsban">
-								<button onclick="myFunctions()" class="buts medium" >зробити замовлення</button>
-								<button class="btnmove medium">дивитись відео <i class="fa fa-play playicon" aria-hidden="true"></i>
-								</button>
-								</div>
-					</div>
-					</div></li>
-					<li><div class="sliderimg2"></div></li>
-					<li><div class="sliderimg3"></div></li>
-					<li><div class="sliderimg4"></div></li>
-					<li><div class="sliderimg5"></div></li>
-				</ul>
-			</div>
-
-
-</div>
-
-				<!--  advantages in slider footer  -->
-
-<div class="vasyok">
-	<div class="vasyochek">
-	<div id="adv1" class="advantag">
-	<i class="fa fa-briefcase fa-2x iconsslid" aria-hidden="true"></i>
-		<br>
-	<span> 10 років гарантії </span>
-	</div>
-
-		<div class="advantag">
-		<i class="fa fa-caret-square-o-right fa-2x iconsslid" aria-hidden="true"></i>
-		<br>
-		<span> найкращі працівники </span>
-	</div>
-
-		<div class="advantag">
-		<i class="fa fa-diamond fa-2x iconsslid" aria-hidden="true"></i>
-		<br>
-		<span> відомі клієнти </span>
-	</div>
-
-		<div class="advantag advantaglast">
-		<i class="fa fa-book fa-2x iconsslid" aria-hidden="true"></i>
-		<br>
-		<span> комфортні умови </span>
-	</div>
-
-</div>
-
-</div>
-</div>
-</div>
-</div>
-		<!-- end  advantages in slider footer  -->
-
-
-			<!--  end main slider  -->
-
-
-<div class="clear">
-</div>
-
-
-		<a name="aboutcompan">
-		</a>
-
-
-
-
-<div class="clear">
-</div>
-
-
-				<!-- About company -->
-	<div class="contein">
-		<div class="aboutcompany">
-			<div class="aboutcompany1 light"><span>WE TAKE PRIDE IN DELIVERING ONLY THE BEST</span></div>
-			<br>
-			<div class="aboutcompany2 bold"><span>ПРО НАШУ КОМПАНІЮ</span></div>
-			<br>
-			<div class="aboutcompany3 medium"><span>We're a close team of creatives, designers developers who work We're a close team of creatives, designers 
-developers who work We're a close team of creatives, designers developers who work We're a close team of creatives, designers developers who work We're a close team of creatives, designers developers who work creatives, designers developers who work We're a close team of creatives, designers  developers who work.</span></div>
-<button class="buts aboutcompanybut medium">дізнатись більше</button>
-		</div>
-		
-	</div>
-				<!-- end About company -->
-
-		<div class="clear">	
-		</div>	
-
-			<!-- Why we -->
-	<div class="whywe">		
-		<div class="whyweleft">	
-			<div class="whywelefttext">
-				<div class="whywetitle">
-					<span class="bold">ЧОМУ САМЕ МИ</span>
-				</div>	
-				<br>
-				<span>We're a close team of creatives, designers  developers who work We're a close team of creatives, designers  developers who work We're a close team of creatives, designers  developers who work We're a close team of creatives, designers  developers who work.</span>
-			</div>	
-		</div>
-
-
-	
-		<div class="whyweright">	
-			<div class="whywerighttext">	
-				<div class="whywerighttext1">	
-					<i class="fa fa-fire fa-3x whywheicon1" aria-hidden="true"></i>
-					<div class="whywefirsttitle bold">
-						<span>ШВИДКА РЕАКЦІЯ</span>
-					</div>
-					<span>We're a close team of creatives, designers  developers who work</span>
-				</div>	
-
-				<div class="whywerighttext1 whywerighttext2">	
-					<i class="fa fa-check-square-o fa-3x whywheicon1" aria-hidden="true"></i>
-					<div class="whywefirsttitle bold">
-						<span>НИЗЬКІ ЦІНИ</span>
-					</div>
-					<span>We're a close team of creatives, designers  developers who work</span>
-					</div>	
-					
-
-					
-
-				<div class="whywerighttext1 whywerighttext3">	
-					<i class="fa fa-bar-chart fa-3x whywheicon1" aria-hidden="true"></i>
-					<div class="whywefirsttitle bold">
-						<span>НОВІТНЄ ОБЛАДНАННЯ</span>
-					</div>
-					<span>We're a close team of creatives, designers  developers who work</span>
-					</div>	
-					
-
-				<div class="whywerighttext1 whywerighttext4">	
-					<i class="fa fa-bolt fa-3x whywheicon1" aria-hidden="true"></i>
-					<div class="whywefirsttitle bold">
-						<span>ПОТУЖНА ТЕХНІКА</span>
-					</div>
-					<span>We're a close team of creatives, designers  developers who work</span>
-				</div>	
-				
-
-		</div>	
-
-	</div>	
-	</div>	
-
-
-			<!-- end Why we -->
-
-		<div class="clear">	
-		</div>	
-
-				<!-- How we are working -->
-					<div class="howwework">
-						<div class="content">
-							<div class="row">
-								<div class="col-xs-1 col-md-8 col-lg-7">
-									<div class="howweworkleft">						
-									</div>	
-								</div>
-								<div class="col-xs-12 col-md-12 col-lg-5">
-									<div class="howweworkright">						
-										<div class="howweworkrighttitle">
-											<span class="bold uper">як ми працюємо</span>				
-										</div>	
-										<div class="howweworkrighttext">
-													<span>Donec commodo malesuada sodales felis volutpat eget nunc ultrices 
-													ultricies ex sed bibendum ipsum maximus id morbi consequat sagittis maximus  morbi rutrum sagittis accumsan nam ante ipsum primis faucibus luctus 
-													rutrum sagittis accumsan.</span>				
-										</div>
-										<button class="buts aboutcompanybut medium">завантажити відео</button>
-									</div>	
+		</section>
+		<section class="showcase">
+			<div class="showcase-wrap">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="device wp3">
+								<div class="device-content">
+									<div class="showcase-slider">
+										<ul class="slides" id="showcaseSlider">
+											<li>
+												<img src="img/screen1.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen2.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen3.jpg" alt="Device Content Image">
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>		
-
-
-				<!-- end How we are working -->
-
-<div class="clear">
-</div>
-			
-						<!-- project development -->
-
-	<div class="projectdevelopment">		
-
-					<div class="projectdevelopmentright">	
-									<div class="whywerighttext">	
-										<div class="whywerighttext1">	
-											<div class="projecticon">
-												<span>1</span>
-											</div>
-											<div class="whywefirsttitle bold">
-												<span>РОЗРАХУНОК</span>
-											</div>
-											<span>We're a close team of creatives, designers  developers who work</span>
-										</div>	
-
-										<div class="whywerighttext1 project2">	
-											<div class="projecticon">
-												<span>2</span>
-											</div>
-											<div class="whywefirsttitle bold">
-												<span>ВИКОРИСТАННЯ</span>
-											</div>
-											<span>We're a close team of creatives, designers  developers who work</span>
-										</div>	
-											
-
-											
-
-										<div class="whywerighttext1 project3">	
-											<div class="projecticon">
-												<span>3</span>
-											</div>
-											<div class="whywefirsttitle bold">
-												<span>ВИВЕЗЕННЯ МАТЕРІАЛУ</span>
-											</div>
-											<span>We're a close team of creatives, designers  developers who work</span>
-										</div>	
-											
-
-										<div class="whywerighttext1  project4 ">	
-											<div class="projecticon">
-												<span>4</span>
-											</div>
-											<div class="whywefirsttitle bold">
-												<span>ЗАКІНЧЕННЯ РОБОТИ</span>
-											</div>
-											<span>We're a close team of creatives, designers  developers who work</span>
-										</div>	
+						<div class="col-md-6">
+							<h1>Про нас</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+							<blockquote class="team-quote">
+								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
+								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Peter Finlan</p>
+								<div class="logo-quote">
 								</div>
-					</div>
-
-					<div class="projectdevelopmentleft">	
-						<div class="whywelefttext">
-							<div class="whywetitle">
-								<span class="bold">СТАДІЇ РОЗРОБКИ ПРОЕКТУ</span>
-							</div>	
-							<br>
-							<span>We're a close team of creatives, designers  developers who work We're a close team of creatives, designers  developers who work We're a close team of creatives, designers  developers who work We're a close team of creatives, designers  developers who work.
-							</span>
+							</blockquote>
+							<a href="#" class="download-btn">Задать вопрос</a>
 						</div>
-					</div>	
-	
-	</div>	
-
-
-
-
-						<!-- end project development -->
-
-		<div class="clear">	
-		</div>	
-
-
-
-	<a name="services">
-	</a>
-
-
-
-		<div class="clear">	
-		</div>	
-
-				<!-- blocks header services -->		
-
-			<div class="blocksheader">	
-				<div class="specb">	
-					<span>SPECBUD</span> 
-				</div>		
-				<br>
-				<div class="blockheader bold">	
-					<span>наші послуги</span> 
-				</div>							
-			</div>		
-
-
-				<!-- end blocks header -->
-
-		<div class="clear">	
-		</div>	
-
-						<!-- services -->
-
-
-				<div class="services">	
-				<div class="menu1">
-  <br id="tab2"/><br id="tab3"/>
-  <a class="tabbs" href="#tab1">ЗАЛИВКА БЕТОНОМ</a><a class="tabbs" href="#tab2">ЗАКАЗ МАТЕРІАЛУ</a><a class="tabbs" href="#tab3">БУДОВА КОМПЛЕКСУ</a>
-  <div class="tabsss">
-	 <div class="tabsbg">	 	
-	 </div>
-	 <div class="tabblock">
-		 <i class="fa fa-bolt fa-3x whywheicon1 tabicon" aria-hidden="true"></i>
-		 <div class="servicestitle bold">
-		 	<span>ЗАЛИВКА БЕТОНОМ</span> 	
-		 </div>
-		 <div class="servicestext">	
-		 	<span>	Donec commodo malesuada sodales felis volutpat eget nunc ultrices 
-					ultricies ex sed bibendum ipsum maximus. Donec commodo malesuada sodales felis volutpat eget nunc ultrices 
-					ultricies ex sed bibendum ipsum maximus. Donec commodo malesuada sodales felis volutpat eget nunc ultrices 
-					ultricies ex sed bibendum ipsum maximus. </span>  	
-		 </div>
-		 <button onclick="myFunctions()" class="buts aboutcompanybut tabbut medium">замовити послугу</button>
-	 </div>
-
-  </div>
-  <div class="tabsss">вкладка 2</div>
-  <div class="tabsss">вкладка 3</div>
-</div>
-				</div>	
-
-
-
-
-						<!-- end  services-->
-
-
-		<div class="clear">	
-		</div>	
-
-				<a name="pricelis">
-				</a>
-
-
-
-		<div class="clear">	
-		</div>	
-
-
-				<!-- blocks header price -->		
-
-			<div class="blocksheader">	
-				<div class="specb">	
-					<span>SPECBUD</span> 
-				</div>		
-				<br>
-				<div class="blockheader bold">	
-					<span>прайс-лист</span> 
-				</div>							
-			</div>		
-
-
-				<!-- end blocks header -->
-
-		<div class="clear">	
-		</div>	
-
-
-
-
-
-				<!-- price-list -->
-
-
-		<div class="pricelist">	
-		</div>			
-
-
-				<!-- end price-list -->
-
-
-		<div class="clear">	
-		</div>	
-
-				<!-- blocks header gallery -->		
-
-			<div class="blocksheader">	
-				<div class="specb">	
-					<span>SPECBUD</span> 
-				</div>		
-				<br>
-				<div class="blockheader bold">	
-					<span>останні замовлення</span> 
-				</div>							
-			</div>		
-
-
-				<!-- end blocks header gallery-->
-
-		<div class="clear">	
-		</div>	
-
-				<!-- gallery -->
-
-				<div class="grid">
-					<figure class="effect-oscar">
-						<img src="images/9.jpg" alt="img09"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-							
-						</figcaption>			
-					</figure>
-					<figure class="effect-oscar">
-						<img src="images/10.jpg" alt="img10"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-							<figure class="effect-oscar">
-						<img src="images/9.jpg" alt="img09"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-					<figure class="effect-oscar nodispl">
-						<img src="images/10.jpg" alt="img10"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-				</div>
-
-
-
-				<div class="grid">
-					<figure class="effect-oscar">
-						<img src="images/10.jpg" alt="img10"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-							<figure class="effect-oscar">
-						<img src="images/9.jpg" alt="img09"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-					<figure class="effect-oscar">
-						<img src="images/10.jpg" alt="img10"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-							<figure class="effect-oscar nodispl">
-						<img src="images/9.jpg" alt="img09"/>
-						<figcaption>
-							<h2><a href="javascript:void(0);" class="logogal"><img src="images/logo.png" alt="Specbud" title=""/></a></h2>
-							<p><span class="gallerybefore">“mountain peaks”</span>
-								<br>
-							<span class="gallerygreen">Дитячий КОМПЛЕКС</span>	
-							</p>
-						</figcaption>			
-					</figure>
-				</div>
-				<!-- end gallery -->
-
-
-		<div class="clear">	
-		</div>	
-
-
-
-				<!-- reviews -->
- 	
-	<div class="review">
-		<div class="reviews">	
-			<div class="reviewsleft">	
-				<div class="reviewsimg">	
-					<img class="reviewsimage" src="images/review1.jpg" alt="Jim" title=""/>
-				</div>
-			</div>
-			<div class="reviewsright">	
-				<div class="reviewstitle bold">	
-					<span>ВІДГУКИ ПРО НАС</span> 
-				</div>
-				<div class="reviewstext">	
-					<span>“Donec commodo malesuada sodales felis volutpat eget nunc ultrices 
-							ultricies ex sed bibendum ipsum maximus. Donec commodo malesuada sodales felis volutpat eget nunc ultrices.” 
-					</span> 
-				</div>	
-				<div class="reviewsname bold">	
-					<span>А. ФЕЩУК</span> 
-				</div>	
-				<div class="reviewsposition">	
-					<span>Директор компанії ARGO</span> 
-				</div>						
-			</div>
-		</div>
-		<div class="reviewsbut">
-			<button class="buts aboutcompanybut reviewbut medium">переглянути офіційний відгук</button>	
-		</div>	
-	</div>
-
-
-	
-			
-
-
-				<!-- end reviews -->	
-
-
-		<div class="clear">	
-		</div>	
-
-
-
-		<a name="contacts">
-		</a>
-
-
-		<div class="clear">	
-		</div>	
-
-		<div class="contact">	
-	
-
-
-				<!-- blocks header contacts -->		
-		<div class="blocksheadercontacts">		
-			<div class="blocksheader blocksheadercontact">	
-				<div class="specb">	
-					<span>SPECBUD</span> 
-				</div>		
-				<br>
-				<div class="blockheader bold">	
-					<span>КОНТАКТИ</span> 
-				</div>							
-			</div>		
-
-		</div>	
-				<!-- end blocks header contacts -->
-
-
-
-				<!-- contacts block -->
-
-	<div class="blocksheadercontacts">			
-		<div class="contacts">	
-			<div class="contactsleft">
-				<div class="contactstitle maptitle bold">
-					<span>Ми на карті Києва</span>
-				</div>	
-				<div class="map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2098921211677!2d30.362943065060286!3d50.45581606518827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc904f159a6b%3A0xe273a985710ff3df!2z0JbQuNGC0L7QvNC40YDRgdGM0LrQsA!5e0!3m2!1sru!2sua!4v1514992696132" 
-					frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>	
-				<div class="adress">
-					<div class="contactstitle bold">
-						<span>Адреса</span>
-					</div>	
-					<div class="contactstitle adresubk bold">
-						<span><nobr>UBK. SPECBUD</nobr></span>
 					</div>
-					<div class="contactstext">
-						<span><nobr>Вулиця Соборна 18.</nobr>
-						<br>
-						<nobr>Головна арка зліва</nobr></span>
-					</div>	
-					<div class="contactstext contactstext2">
-						<span><nobr>+38 (063) 254 84 79</nobr>
-						<br>
-						<nobr>UBK@gmail.com</nobr></span>
-					</div>									
-				</div>	
-				<div class="socials">
-					<div class="contactstitle soctitle bold">
-						<span>Social</span>
-					</div>						
-					<div class="socialss">
-						<a class="socialshref" href="">
-							<i class="fa fa-facebook soc " aria-hidden="true"></i>	
-							<div class="socialstext contactstext">
-								Facebook
-							</div>	
-						</a>												
-					</div>	
-					<div class="socialss">
-						<a class="socialshref" href="">
-							<i class="fa fa-twitter soc soc2" aria-hidden="true"></i>	
-							<div class="socialstext contactstext">
-								Twitter
-							</div>	
-						</a>															
+				</div>
+			</div>
+		</section>
+
+		<section class="screenshots-intro">
+			<div class="container"> 
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Аренда оборудования от 500 руб./мес включает:</h1>
+						<p><i class="fa fa-check checkgreen"></i> Стоимость аренды оборудования (с монтажем)</p>
+						<p><i class="fa fa-check checkgreen"></i> Аренду программного обеспечения</p>
+						<p><i class="fa fa-check checkgreen"></i> Абонентскую плату за трафик оператора сотовой связи</p>
+						<p><i class="fa fa-check checkgreen"></i> Техподдержку</p>
+						<p><i class="fa fa-check checkgreen"></i> Лучшую систему мониторинга - Wialon</p>
+						<a href="#" class="download-btn btnblue">Заказать</a>
 					</div>
-					<div class="socialss">
-						<a class="socialshref" href="">
-							<i class="fa fa-instagram soc soc2" aria-hidden="true"></i>	
-							<div class="socialstext contactstext">
-								Instagram
-							</div>	
-						</a>															
+				</div>
+			</div>
+		</section>
+
+		<section class="download" id="download">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center wp4">
+						<h1>Хотите получить бесплатную консультацию?</h1>
+						<a href="" class="download-btn">Заказать</a>
 					</div>
-					<div class="socialss">
-						<a class="socialshref" href="">
-							<i class="fa fa-skype soc soc2" aria-hidden="true"></i>	
-							<div class="socialstext contactstext">
-								Skype
-							</div>	
-						</a>															
-					</div>														
-				</div>				
+				</div>
 			</div>
-
-			<div class="contactsright">
-
-				<div class="contactstitle maptitle contactformtitle bold">
-					<span>Контактна форма</span>
-				</div>	
-
-				<form>
-
-			        <!-- Hidden Required Fields -->
-				        <input type="hidden" name="project_name" value="Specbud">
-				        <input type="hidden" name="admin_email" value="kraine212@gmail.com">
-				        <input type="hidden" name="formsubject" value="Заявка с сайта">
-			        <!-- END Hidden Required Fields -->
-
-
-			<input type="text" name="Имя" id="name" class="name names" placeholder="Ваше ім’я" required><br>
-
-			<input type="text" name="Email" id="email" class="name email" placeholder="Ваш email" required><br>
-
-			<textarea type="text" name="Сообщение" id="messege" class="name messege" placeholder="Ваше повідомлення" required></textarea>
-
-			<br>
-
-			<div class="formbut">
-				<button id="" class="buttonform">Надіслати</button>
-			</div>
-
-			    </form>
-
-														
-			</div>
-
-
-
-
-
-		</div>
-	</div>
-
-				<!-- end contacts block -->		
-
-
-
-		</div>			
-
-				<!-- end contact-->
-
-
-			<div class="clear">	
-			</div>	
-
-
-				<!-- footer -->
-
-	
+		</section>
 		<footer>
-			<div class="footer">	
-	
-				<div class="logo logofoot">
-					<a href="#" ><img class="logot" src="images/logo.png" alt="Specbud" title=""/></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h1 class="footer-logo">
+						<img src="img/logo-blue.png" alt="Footer Logo Blue">
+						</h1>
+						<p>© Coopyright 2018 - <a href="http://tympanus.net/codrops/licensing/"></a> - Designed &amp; Developed by <a target="_blank" href="#">Wensa</a></p>
+					</div>
+					<div class="col-md-7">
+						<ul class="footer-nav">
+							<li><a href="#about">Главная</a></li>
+							<li><a href="#features">Преимущества</a></li>
+							<li><a href="#screenshots">Про нас</a></li>
+							<li><a href="#download">Заказать</a></li>
+						</ul>
+						<br>
+						<p>БЦ «На Луговой», Пермский край , г.Чайковский, ул. Промышленная, д. 11, оф.6</p>
+					</div>
 				</div>
-
-				<div class="footmenu">
-						<ul>
-							<!--<li><a href="" class="active">Home</a></li>-->
-							<li><a href="#">Головна</a></li>
-							<li><a href="#">Про нас</a></li>
-							<li><a href="#">Послуги</a></li>
-							<li><a href="#">Прайс-лист</a></li>
-							<li><a href="#">Замовники</a></li>
-							<li><a href="#">Партнери</a></li>
-							<li><a href="#">Контакти</a></li>
-						</ul>	
-				</div>
-
-			<div class="clear">	
-			</div>
-
-				<div class="coopyright">	
-				<div class="coopyrightleft">	
-					<span>@ КОПИРАЙТ 2017, ВСЕ ПРАВА ЗАЩИЩЕНЫ UBK.SPECBUD</span>
-					<br>
-					<a class="wensa light" href="#">Design and made by <span class="wens">W</span>ENSA</a> 
-				</div>
-				<div class="coopyrightcenter">	
-					<a href="#">
-						<i class="fa fa-angle-up clickup" aria-hidden="true"></i>
-					</a> 
-				</div>
-				<div class="coopyrightright">	
-					<a href="#">
-						F.A.Q
-					</a> 
-					<a href="#">
-						ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ
-					</a> 
-				</div>
-				</div>
-
 			</div>
 		</footer>
-				
-
-
-				<!-- end footer -->
-
-
-					<!-- small menu icon -->
-<div class="menubuts" onclick="myFunction()"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
-					<!-- end small menu icon -->
-
-
-</div>
-</div>
-</div>
-
-			<!-- small menu js -->
-<script>
-function myFunction() {
-
-    	$("#smallmenu").toggleClass("displ");   
-
-}
-</script>
-
-			<!-- end small menu js -->
-
-
-			<!-- feedback menu js -->
-<script>
-function myFunctions() {
-
-    	$("#feedback").toggleClass("displ");   
-
-}
-</script>
-
-			<!-- end feedback menu js -->
-				
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	<!-- Ajax -->
-		<script src="js/jquery.cbpFWSlider.min.js"></script>	<!-- Slider -->
-		<script src="js/jquery.bootstrap.min.js"></script>	<!-- Bootstrap -->
-
-
-		<!-- slider js -->
+		<div class="overlay overlay-boxify">
+			<nav>
+				<ul>
+					<li><a href="#about"><i class="fa fa-heart"></i>Главная</a></li>
+					<li><a href="#features"><i class="fa fa-flash"></i>Преимущества</a></li>
+				</ul>
+				<ul>
+					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Про нас</a></li>
+					<li><a href="#download"><i class="fa fa-download"></i>Заказать</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/min/toucheffects-min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/flickity.pkgd.min.js"></script>
+		<script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/retina.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/min/scripts-min.js"></script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-			$( function() {
-				$( '#cbp-fwslider' ).cbpFWSlider();
-			} );
-</script>
-
-
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
 	</body>
 </html>
